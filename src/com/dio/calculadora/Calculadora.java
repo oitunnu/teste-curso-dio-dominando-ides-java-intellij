@@ -4,20 +4,24 @@ import java.util.Scanner;
 
 public class Calculadora {
     public static void main(String[] args) {
+        //create new scanner to get input from user
         Scanner scan = new Scanner(System.in);
 
         double a, b;
 
+        //get input from user
         System.out.println("Digite o primeiro valor: ");
         a = scan.nextInt();
         System.out.println("Digite o segundo valor: ");
         b = scan.nextInt();
 
+        //cal methods
         double somar = somar(a, b);
         double subtrair = subtrair(a, b);
         double multiplicar = multiplicar(a, b);
         double dividir = dividir(a, b);
 
+        //print results
         System.out.println("somar: " + somar);
         System.out.println("subtrair : " + subtrair);
         System.out.println("multiplicar: " + multiplicar);
