@@ -46,8 +46,8 @@ public class Main {
         //float f1 = 4.265; seria um double
         float f2 = 22.55F;
 
-        double d1 = 845.51;
-        double d2 = 41187.4;
+        double d1 = 85.51;
+        double d2 = 41.4;
 
         char c1 = 'a';
         //char c2 = 'te'; serve para apenas um caracter
@@ -90,6 +90,13 @@ public class Main {
         atribuicao();
         System.out.println("Precedencia");
         precedencia();
+
+        // Exercise: calculate area of quadrilaterals
+        System.out.println("Area of quadrilaterals");
+        QuadArea.area(d2);
+        QuadArea.area(d1,d2);
+        QuadArea.area(3,7,5);
+        QuadArea.area(f2,22f);
 
     }
 
